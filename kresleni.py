@@ -22,4 +22,9 @@ create.create_rectangle(460, 100, 490, 150,fill="orange")
 create.create_rectangle(500, 100, 900, 300,fill="white")
 create.create_rectangle(550, 100, 600, 300,fill="blue")
 create.create_rectangle(500, 175, 900, 225,fill="blue")
+
+#Vytvoř nový program norsko.py, který nakreslí norskou vlajku:
+create.create_rectangle(500, 100, 900, 300,fill="white")
+create.create_rectangle(550, 100, 600, 300,fill="blue")
+create.create_rectangle(500, 175, 900, 225,fill="blue")
 mainloop()
