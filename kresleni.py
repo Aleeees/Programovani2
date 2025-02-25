@@ -1,6 +1,6 @@
 from tkinter import *
 #Přidej do programu vybarveny.py další 3 příkazy na kreslení obdélníků, abys dostal následující obrázek:
-create = Canvas(width=1000, height=1000)
+create = Canvas()
 create.pack()
 create.create_rectangle(50, 50, 100, 100,fill="red")
 create.create_rectangle(110, 50, 160, 100,fill="green")
