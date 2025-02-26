@@ -6,5 +6,13 @@
 #a hodnotu proměnné y zvětšíš o 10? Jestli ne, program oprav.
 
 from tkinter import *
+
+x=30
+y=30
+
 create= Canvas()
 create.pack()
+create.create_rectangle(x,y,x+50,y+50,fill='blue')
+create.create_rectangle(x+50,y,x+100,y+50,fill='lightblue')
+create.create_rectangle(x+100,y,x+150,y+50,fill='darkblue')
+mainloop()
