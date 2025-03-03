@@ -9,10 +9,11 @@ from tkinter import *
 
 x=30
 y=30
-
+a=50
+b=50
 create= Canvas()
 create.pack()
-create.create_rectangle(x,y,x+50,y+50,fill='blue')
-create.create_rectangle(x+50,y,x+100,y+50,fill='lightblue')
-create.create_rectangle(x+100,y,x+150,y+50,fill='darkblue')
+create.create_rectangle(x,y,x+a,y+b,fill='blue')
+create.create_rectangle(x+a,y,x+2*a,y+b,fill='lightblue')
+create.create_rectangle(x+2*a,y,x+3*a,y+b,fill='darkblue')
 mainloop()

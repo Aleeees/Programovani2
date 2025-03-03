@@ -4,11 +4,11 @@
 
 from tkinter import *
 
-x=400
-y=400
+x=100
+y=200
 
 a=100
-b=300
+b=200
 
 create=Canvas()
 create.pack()
