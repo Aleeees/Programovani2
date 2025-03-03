@@ -4,3 +4,13 @@
 #[160, 90]
 #[150, 150]
 #[230, 230]
+from tkinter import *
+canvas= Canvas()
+canvas.pack()
+canvas.create_rectangle(170,50,210,90)
+canvas.create_rectangle(160,90,220,150)
+canvas.create_rectangle(150,150,230,230)
+
+
+
+mainloop()

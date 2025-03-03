@@ -7,9 +7,16 @@
 
 from tkinter import *
 
-x=100
-y=100
+x=200
+y=200
 
-create=Canvas()
+create=Canvas(width=400,height=400)
 create.pack()
+create.create_oval(x-100,y-100,x+100,y+100,fill="green")
+create.create_oval(x-30,y+50,x+30,y+20,fill="red")
+create.create_rectangle(x-50,y-30,x-15,y,fill="blue")
+create.create_rectangle(x+50,y-30,x+15,y,fill="blue")
+create.create_oval(x-30,y-27,x-20,y-18,fill="white")
+create.create_oval(x+30,y-27,x+20,y-18,fill="white")
+
 mainloop()
