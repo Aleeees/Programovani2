@@ -15,15 +15,15 @@ print("Toto je aplikace upožňující tisk adresy. Vítejte")
 
 # pomoci metody input() dojde k ziskani vstupu od uzivatele
 # tento vstup je posleze ulozen do prislusne promenne
-promA = input("Zadejte křestní jméno: ")
-promB = input("Zadejte příjmení: ")
-promC = input("Zadejte město: ")
-promD = input("Zadejte PSČ: ")
-promE = input("Zadejte ulici: ")
-promF = input("Zadejte číslo popisné: ")
+jmeno = input("Zadejte křestní jméno: ")
+prijmeni = input("Zadejte příjmení: ")
+Mesto = input("Zadejte město: ")
+PSC = input("Zadejte PSČ: ")
+Ulice = input("Zadejte ulici: ")
+PopisneCislo = input("Zadejte číslo popisné: ")
 
 
-adresa = (f"{promA} {promB} \n"
-          f"{promE} {promF} \n"
-          f"{promD} {promC}")
+adresa = (f"{jmeno} {prijmeni} \n"
+          f"{Ulice} {PopisneCislo} \n"
+          f"{PSC} {Mesto}")
 print(adresa)

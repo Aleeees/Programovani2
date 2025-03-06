@@ -13,6 +13,6 @@ a = float(aRet)
 b = float(bRet)
 
 # zde doplnte potrebny kod
-
+vysledek=(a+b)/2
 
 print(vysledek)

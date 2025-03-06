@@ -14,5 +14,4 @@ rc = int(rcRet)
 
 # zde doplnte potrebny kod pro vypocet dne, mesice a roku narozeni
 
-
-print(rc)
+print(f"Datum narození je {range(rc(1,2))}.{range(rc(2,4))}")

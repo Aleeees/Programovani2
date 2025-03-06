@@ -20,6 +20,8 @@ most2 = input("Zadejte nosnost druhého mostu: ")
 most3 = input("Zadejte nosnost třetího mostu: ")
 
 # zde doplňte potřebný kód
-
-vysledek = 0
+most1=abs(int(most1))
+most2=abs(int(most2))
+most3=abs(int(most3))
+vysledek = min(most1, most2, most3)
 print("Maximální možná hmotnost vozu je", vysledek)
