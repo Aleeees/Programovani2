@@ -1,0 +1,22 @@
+Bez pou�it� Pythonu ur�ete, jak� v�sledky by Python vypsal, pokud byste do konzole zadal(a):
+a) >>> 1 == 1
+b) >>> 1 == 2
+c) >>> 0 != 2
+d) >>> 0 != 0
+e) >>> x = 100
+   >>> x == 10 * 10
+f) >>> x != 10 * 10
+g) >>> 11 * 11 - 21 == x
+h) >>> 1000 / 10 - 1 != x
+
+Jednotliv� v�sledky zapi�te do f�ra Odpov�di 
+a)True
+b)False
+c)True
+d)False
+e)True
+f)False
+g)True
+h)True
+
+(p�evzato z u�ebnice Z�klady programov�n� v jazyce Python pro st�edn� �koly od A. Blaha, �. Salanciho a V. �imandla)
