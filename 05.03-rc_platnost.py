@@ -14,7 +14,8 @@ rcRet = input("Zadejte rodné číslo: ")
 rc = int(rcRet)
 
 
-
-print("Zatím nedokážu rozhodnout :(")
-
+if rc%11!=0:
+    print("Zatím nedokážu rozhodnout :(")
+else:
+    print(f"Rodné číslo {rc} je platné")
 print("Díky za použití našeho programu")
