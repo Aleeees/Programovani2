@@ -26,9 +26,9 @@ cp = input("Zadejte číslo popisné: ")
 
 
 pohlavi=pohlavi.lower()
-if(pohlavi=="muž"):
+if pohlavi== "muž":
     osloveni="Vážený pane"
-elif(pohlavi=="žena"):
+elif pohlavi== "žena":
     osloveni="Vážená paní"
 else:
     osloveni=""

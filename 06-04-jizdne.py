@@ -25,13 +25,14 @@ def cenaJizdneho(cena,zpatecni,student):
     #student = input("Chcete uplatnit studentskou slevu? (ano / ne): ")
     zpatecni = zpatecni.lower()
     student = student.lower()
+    zpatecniSleva=0
     if zpatecni=="ano":
         cena=cena*2
         zpatecniSleva=(cena/100)*5
     else:
         zpatecniSleva=0
     if student=="ano":
-        studentSleva=(cena/100)*40
+        studentSleva=((cena-zpatecniSleva)/100)*40
     else :
         studentSleva=0
     vyslednaCena = cena-zpatecniSleva-studentSleva

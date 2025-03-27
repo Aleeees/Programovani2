@@ -11,7 +11,7 @@
 def mujDedaPeceLipNezTvuj(upecene):
     if upecene<10:
         print("Jsi začátečník")
-    elif upecene>=10 and upecene<20:
+    elif upecene < 20:
         print("Pokročilý")
     elif upecene>=20:
         print("Expert")

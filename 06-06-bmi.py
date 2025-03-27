@@ -25,15 +25,15 @@ def BMI(hmotnostRet,vyskaRet):
     bmi=hmotnost/(vyska*vyska)
     if bmi <= 16.5:
         vysledek="těžká podvýživa"
-    elif bmi > 16.5 and bmi < 18.5:
+    elif 16.5 < bmi < 18.5:
         vysledek="podvaha"
-    elif bmi >= 18.5 and bmi < 25:
+    elif 18.5 <= bmi < 25:
         vysledek="normalni vaha"
-    elif bmi >= 25 and bmi < 30:
+    elif 25 <= bmi < 30:
         vysledek="nadvaha"
-    elif bmi >= 30 and bmi < 35:
+    elif 30 <= bmi < 35:
         vysledek= "mirna obezita"
-    elif bmi >= 35 and bmi < 40:
+    elif 35 <= bmi < 40:
         vysledek="střední obezita"
     elif bmi >= 40:
         vysledek="morbidní obezita"

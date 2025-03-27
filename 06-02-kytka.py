@@ -9,15 +9,15 @@ vstup = input("Zadejte kód vybrané barvy: ")
 #   Pokud uživatel zadá neplatný kód barvy, bude zvolena červená barva
 #3. Program důkladně otestujte
 
-if(vstup == "1"):
+if vstup == "1":
     barva="red"
-elif(vstup == "2"):
+elif vstup == "2":
     barva="yellow"
-elif(vstup == "3"):
+elif vstup == "3":
     barva="barva"
-elif(vstup == "4"):
+elif vstup == "4":
     barva="orange"
-elif(vstup == "5"):
+elif vstup == "5":
     barva="gray"
 else:
     barva="red"
