@@ -24,4 +24,31 @@
 
 
 # Převzato z: https://imysleni.cz/ucebnice/zaklady-programovani-v-jazyce-python-pro-stredni-skoly
+def prvniVerze():
+    for i in range(0,10):
+        print(f"číslo {i}")
 
+def druhaVerze():
+    for i in range(1,11):
+        print(f"číslo {i}")
+
+def tretiVerze():
+    for i in range(1,11,2):
+        print(f"číslo {i}")
+
+def ctvrtaVerze():
+    for i in range(0,22,2):
+        print(f"číslo {i}")
+
+def pataVerze():
+    for i in range(1,20,2):
+        print(f"číslo {i}")
+
+
+
+
+prvniVerze()
+druhaVerze()
+tretiVerze()
+ctvrtaVerze()
+pataVerze()

@@ -7,3 +7,12 @@
 
 # Převzato z: https://imysleni.cz/ucebnice/zaklady-programovani-v-jazyce-python-pro-stredni-skoly
 
+
+def pozdrav():
+    for i in range(1,6):
+        print("Těším se na prázdniny")
+    print("==========================")
+
+
+
+pozdrav()

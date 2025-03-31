@@ -6,12 +6,19 @@
 # 3. Program upravte tak, aby první vypisované číslo bylo 1
 # 4. Program opět otestujte
 
+def vypisCisel():
+    print("Toto je aplikace na výpis druhých mocnin přirozených čísel. Vítejte")
 
-print("Toto je aplikace na výpis druhých mocnin přirozených čísel. Vítejte")
+    pocet = int(input("Zadejte počet vypisovaných čísel"))
+    for i in range(0,pocet):
+        print(i)
 
-pocet = int(input("Zadejte počet vypisovaných čísel"))
+def vypisCiselOd1():
+    print("Toto je aplikace na výpis druhých mocnin přirozených čísel. Vítejte")
 
+    pocet = int(input("Zadejte počet vypisovaných čísel"))
+    for i in range(1, pocet+1):
+        print(i)
 
-
-
-
+vypisCisel()
+vypisCiselOd1()
