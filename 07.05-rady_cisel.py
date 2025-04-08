@@ -33,11 +33,11 @@ def druhaVerze():
         print(f"číslo {i}")
 
 def tretiVerze():
-    for i in range(1,11,2):
+    for i in range(0,11):
         print(f"číslo {i}")
 
 def ctvrtaVerze():
-    for i in range(0,22,2):
+    for i in range(2,22,2):
         print(f"číslo {i}")
 
 def pataVerze():

@@ -11,14 +11,14 @@ def vypisCisel():
 
     pocet = int(input("Zadejte počet vypisovaných čísel"))
     for i in range(0,pocet):
-        print(i)
+        print(i*i)
 
 def vypisCiselOd1():
     print("Toto je aplikace na výpis druhých mocnin přirozených čísel. Vítejte")
 
     pocet = int(input("Zadejte počet vypisovaných čísel"))
     for i in range(1, pocet+1):
-        print(i)
+        print(i*i)
 
 vypisCisel()
 vypisCiselOd1()
