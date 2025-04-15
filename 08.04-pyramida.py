@@ -10,5 +10,5 @@ def pyramida(pocet):
         canvas.create_rectangle((x/2)-(i*10),y,(x/2)+(i*10),y+20,fill="yellow")
         y+=20
 
-pyramida(10)
+pyramida(5)
 mainloop()
