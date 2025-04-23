@@ -15,4 +15,4 @@ for i in range(len(pole)):
     if pole[i]%3==0:
         print(pole[i])
         delitelne+=1
-print(f"Počet dělitelných 3 je{delitelne}")
+print(f"Počet dělitelných 3 je {delitelne}")

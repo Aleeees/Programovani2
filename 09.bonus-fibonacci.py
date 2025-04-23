@@ -23,9 +23,15 @@ print("Toto je aplikace vypisující Fibonacciho posloupnost. Vítejte")
 vstup = input("Zadejte počet hledaných prvků: ")
 pocetPrvku=int(vstup)
 
-def fibonaci(pocetPrvku):
-    for i in range(pocetPrvku):
-        vysledek=pocetPrvku[i]+pocetPrvku[i+1]
-        return vysledek
 
-print(fibonaci(pocetPrvku))
+def fibonacci(pocet_prvku):
+    posloupnost = [0, 1]
+    if pocet_prvku == 1:
+        return [0]
+
+    for i in range(2, pocet_prvku):
+        posloupnost.append(posloupnost[i - 1] + posloupnost[i - 2])
+
+    return posloupnost[:pocet_prvku]
+
+print(fibonacci(pocetPrvku))

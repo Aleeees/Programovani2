@@ -15,7 +15,7 @@ import random
 
 def predpoved():
     pocasi = ["slunečný", "polojasný", "oblačný", "zatažený", "deštivý","mlhavý"]
-    rnd=random.randint(0,len(pocasi)+1)
+    rnd=random.randint(0,len(pocasi)-1)
     return pocasi[rnd]
 
 
