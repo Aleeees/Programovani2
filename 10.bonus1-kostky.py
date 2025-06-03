@@ -26,9 +26,11 @@ def pravdepodobnost(n):
     for i in range(0,n):
         soucet = random.randint(1, 6) + random.randint(1, 6) + random.randint(1, 6)
         print(soucet)
-        hozeno[soucet-3]+=i
+        hozeno[soucet-3]+=1
     for i in range(len(hozeno)):
-        print(f'{i+3} bylo hozeno {hozeno[i]/n}%, což je {hozeno[i]} z hodů {n}')
+        print(f'{i+3} bylo hozeno {(hozeno[i] / n) * 100} %,což je {hozeno[i]} z hodů {n}')
+    print(hozeno)
+
 
 
 pravdepodobnost(n)

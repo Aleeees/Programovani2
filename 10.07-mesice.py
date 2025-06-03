@@ -39,4 +39,4 @@ def vypisMesice(rok, mesic):
         print(f'{i}. {mesic}. {rok}')
 
 
-vypisMesice(1931, 12)
+vypisMesice(2000, 2)

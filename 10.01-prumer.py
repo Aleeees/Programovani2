@@ -13,8 +13,8 @@
 print("Toto je aplikace zjišťující výsledky testu. Vítejte")
 
 
-znamky = [80, 54, 16, 54, 99, 53, 69, 87, 93, 80, 37, 24, 79, 68, 69, 10, 99, 19, 22, 68]
-studenti = ["Adam", "Barbora", "Cyril", "David", "Daniel", "Dana", "Eva", "Evžen",
+znamky = [ 54, 16, 54, 99, 53, 69, 87, 93, 80, 37, 24, 79, 68, 69, 10, 99, 19, 22, 68]
+studenti = ["Barbora", "Cyril", "David", "Daniel", "Dana", "Eva", "Evžen",
             "František", "Gábina", "Hana", "Hynek", "Karel", "Klára", "Ludmila", "Luděk",
             "Martina", "Markéta", "Milan", "Mirek"]
 
